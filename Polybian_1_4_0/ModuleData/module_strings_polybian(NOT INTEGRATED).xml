@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <strings>
+
+
+    <string id="str_formation_class_string.Infantry" text="{=1Bm1Wk1v}Infantry" />
+    <string id="str_formation_class_string.Ranged" text="{=bIiBytSB}Archers" />
+    <string id="str_formation_class_string.Cavalry" text="{=YVGtcLHF}Cavalry" />
+    <string id="str_formation_class_string.HorseArcher" text="{=q2Y2DHiA}Horse Archers" />
+    <string id="str_formation_class_string.Skirmisher" text="{=q2Y2AziA}Skirmishers" />
+    <string id="str_formation_class_string.HeavyInfantry" text="{=JSokBXER}Heavy Infantry" />
+    <string id="str_formation_class_string.LightCavalry" text="{=ZR2bAa1p}Light Cavalry" />
+    <string id="str_formation_class_string.HeavyCavalry" text="{=MLmHSSg0}Heavy Cavalry" />
+    <string id="str_troop_type_name.Ranged" text="{=OJbpmlXu}Ranged" />
+    <string id="str_troop_type_name.Cavalry" text="{=YVGtcLHF}Cavalry" />
+    <string id="str_troop_type_name.Infantry" text="{=1Bm1Wk1v}Infantry" />
+    <string id="str_troop_type_name.HorseArcher" text="{=ugJfuabA}Horse Archer" />
+    <string id="str_troop_type_name.Skirmisher" text="{=ugJfuabA}Skirmishers" />
+    <string id="str_troop_type_name.HeavyInfantry" text="{=JSokBXER}Heavy Infantry" />
+    <string id="str_troop_type_name.LightCavalry" text="{=ZR2bAa1p}Light Cavalry" />
+    <string id="str_troop_type_name.HeavyCavalry" text="{=MLmHSSg0}Heavy Cavalry" />
+  
+  </strings>
+</base>

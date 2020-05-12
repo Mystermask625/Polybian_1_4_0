@@ -1,0 +1,2007 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <!-- #endregion -->
+  <!-- #region Roman Troops -->
+  <!-- #Militia -->
+  <NPCCharacter id="horseman" default_group="Cavalry" level="11" name="{=uh4rIbZ9}Horseman" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" occupation="Townsfolk" culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.guard"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="20"/>
+      <skill id="Riding" value="40"/>
+      <skill id="OneHanded" value="60"/>
+      <skill id="Polearm" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+      <equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+      <equipment slot="Head" id="Item.segmented_cervelliere_over_laced_coif"/>
+      <equipment slot="Body" id="Item.hemp_tunic"/>
+      <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+      <equipment slot="Gloves" id="Item.mail_mitten"/>
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+      <equipment slot="Item1" id="Item.strapped_round_shield"/>
+      <equipment slot="Body" id="Item.hemp_tunic"/>
+      <equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+      <equipment slot="Gloves" id="Item.reinforced_padded_mitten"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.t2_empire_horse"/>
+    <equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+    <!---<equipment slot="Leg" id="Item.cape" />-->
+    <upgrade_targets/>
+  </NPCCharacter>
+  <NPCCharacter id="archer" default_group="Ranged" level="11" name="{=ieiqOaZp}Archer" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" occupation="Townsfolk" culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.guard"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="Bow" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.hunting_bow"/>
+      <equipment slot="Item1" id="Item.range_arrows"/>
+      <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+      <equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+      <equipment slot="Leg" id="Item.strapped_shoes"/>
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.hunting_bow"/>
+      <equipment slot="Item1" id="Item.range_arrows"/>
+      <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+      <equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+      <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+    </equipmentSet>
+  </NPCCharacter>
+  <NPCCharacter id="coop_character" default_group="Infantry" level="11" name="{=i5QgQbRi}Imperial Soldier" occupation="Townsfolk" is_basic_troop="true" culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire"/>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="40"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="20"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+      <equipment slot="Body" id="Item.tied_cloth_tunic"/>
+      <equipment slot="Leg" id="Item.strapped_shoes"/>
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+      <equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+      <equipment slot="Leg" id="Item.strapped_shoes"/>
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+      <equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+      <equipment slot="Leg" id="Item.strapped_shoes"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.imperial_trained_infantryman"/>
+      <upgrade_target id="NPCCharacter.imperial_archer"/>
+    </upgrade_targets>
+  </NPCCharacter>
+  <!-- #Infantry -->
+  <!-- #Infantry -->
+  <!-- #Infantry -->
+  <!-- #Infantry -->
+  <!-- #Infantry -->
+  <!-- #Infantry -->  
+  <NPCCharacter id="adsiduus" default_group="Infantry" level="6" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Adsiduus" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CD8000000000F8C7542895249636875D8827BA494677A3D769F328C95A234017776130747BA5300000000000000000000000000000000000000003AF47002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001C70044000000F88754289524963686855A6748AA9545EAA8337267885994D0177761307D416A800000000000000000000000000000000000000003AF40082"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="35"/>
+      <skill id="OneHanded" value="35"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Throwing" value="25"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+      <equipment slot="Item1" id="Item.throwing_stone"/>
+      <equipment slot="Body" id="Item.hemp_tunic"/>
+      <equipment slot="Leg" id="Item.leather_shoes"/>
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
+      <equipment slot="Item1" id="Item.throwing_stone"/>
+      <equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+      <equipment slot="Leg" id="Item.leather_shoes"/>
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+      <equipment slot="Item1" id="Item.throwing_stone"/>
+      <equipment slot="Body" id="Item.sackcloth_tunic"/>
+      <equipment slot="Leg" id="Item.leather_shoes"/>
+    </equipmentSet>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+      <equipment slot="Item1" id="Item.throwing_stone"/>
+      <equipment slot="Body" id="Item.tied_cloth_tunic"/>
+      <equipment slot="Leg" id="Item.leather_shoes"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.miles" />
+      <upgrade_target id="NPCCharacter.accensi" />
+    </upgrade_targets>
+  </NPCCharacter> 
+  <NPCCharacter id="miles" default_group="Infantry" level="11" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Miles" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25" weight="0.5" build="0.5"  key="001CB8014000000F7C7542895243236875D8866B5436C64397F69A398C952117017776130712B55300000000000000000000000000000000000000003AF42002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000534044000000F577542895243236857E7443957BBCBAECB667839B3A8C7790177761307B84A4900000000000000000000000000000000000000003AF430C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="50"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="50"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
+      <equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+      <equipment slot="Item2" id="Item.civis_gladius"/>
+      <equipment slot="Body" id="Item.empire_short_dress"/>
+      <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.princeps" />
+	  <upgrade_target id="NPCCharacter.hastati" />
+    </upgrade_targets>
+	</NPCCharacter>
+  <NPCCharacter id="princeps" default_group="Infantry" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Princeps" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25" weight="0.5" build="0.5"  key="001CB8014000000D7C75428952463B6855D88669543662B347F69A398C972338017776130743B95300000000000000000000000000000000000000003AF42002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0005640CC000000DE475428952463B6879ACA86734969993EC549A4776566D4501777613075366A300000000000000000000000000000000000000003AF48102"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="40"/>
+      <skill id="Throwing" value="60"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.gladius_princeps"/>
+      <equipment slot="Item1" id="Item.desert_oval_shield"/>
+      <equipment slot="Item2" id="Item.princeps_pilum"/>
+      <equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
+      <equipment slot="Leg" id="Item.steppe_leather_boots"/>
+      <equipment slot="Head" id="tall_helmet"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.legionarius" />
+	  <upgrade_target id="NPCCharacter.praetoriae" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="legionarius" default_group="Infantry" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Legionarius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CD8044000000D4975428957746368677C8275544AB33C39769F748C95A234017776130747BA5300000000000000000000000000000000000000003AF47002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0011A4014000000D6975428957746368B5BA695B8656D938833EBDA9A795879B0177761307885A5B00000000000000000000000000000000000000003AF430C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="15"/>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Throwing" value="80"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.gladius_senatus"/>
+      <equipment slot="Item1" id="Item.scutum_contubernium"/>
+      <equipment slot="Item2" id="Item.legionarius_pilum"/>
+      <equipment slot="Body" id="Item.imperial_mail_vest"/>
+      <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      <equipment slot="Gloves" id="Item.mail_mitten"/>
+      <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+      <equipment slot="Head" id="helmet_with_faceguard"/>
+    </equipmentSet>
+    <upgrade_targets>
+	  <upgrade_target id="NPCCharacter.cohortis_triumphalis" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="praetoriae" default_group="Infantry" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Praetorianius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25" weight="0.5" build="0.5"  key="001C7C014000168D2976523977417B4DC57B8D69766422F25A362F6D86C78452017776130796BB3600000000000000000000000000000000000000003AF42102"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001134014000168D5576523977417B4DDC43CB7846CC787588C6795A77C76AC901977613094C4B3900000000000000000000000000000000000000003B3C1082"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="15"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Throwing" value="90"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_mace_2_t4"/>
+      <equipment slot="Item1" id="Item.plumbata"/>
+      <equipment slot="Item2" id="Item.scutum_centuriae"/>
+      <equipment slot="Item3" id="Item.gladius_senatus"/>
+      <equipment slot="Body" id="Item.imperial_lamellar_over_leather"/>
+      <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+      <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+      <equipment slot="Head" id="Item.ridged_northernhelm"/>
+      <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.cohortis_praetoriae" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="cohortis_triumphalis" default_group="Infantry" level="26" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Legionarius Cohortis Triumphalis" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CB80594FC000D487542895243CA5545AB868746C39C9867264E568C926395017776130795694100000000000000000000000000000000000000003AF43002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0000A00454FC000D787542895243CA5578A6488A537B66647AAA78798999D99C017776130742778500000000000000000000000000000000000000003AF48102"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Throwing" value="90"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.gladius_augustus"/>
+      <equipment slot="Item1" id="Item.scutum_manipulus"/>
+      <equipment slot="Item2" id="Item.legionarius_elite_pilum"/>
+      <equipment slot="Body" id="Item.legionary_mail"/>
+      <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+      <equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+      <equipment slot="Head" id="plumed_helmet"/>
+      <equipment slot="Cape" id="imperial_lamellar_shoulders"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.palatinus_constantinus" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="palatinus_constantinus" default_group="Infantry" level="31" name="{=*}Palatinus Constantinus" occupation="Soldier" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="00168002C0CC05CF426C477A9C767117372539394E7D89A7399B5BC793D85BA301C776130C7754C700000000000000000000000000000000000000001D9C1102"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0016800B40CC05CF726C477A9C7671173D259C39477A5997769B6A6AA564B6AA01A776130A8A749100000000000000000000000000000000000000001D4C7042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="150"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Throwing" value="90"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.palatinus_sword"/>
+      <equipment slot="Item1" id="Item.steel_round_shield"/>
+      <equipment slot="Item2" id="Item.palatinus_pilum"/>
+      <equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+      <equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+      <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+      <equipment slot="Head" id="sturgian_helmet_b_close"/>
+      <equipment slot="Cape" id="imperial_studded_strip_shoulders"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="cohortis_praetoriae" default_group="Infantry" level="26" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Praetorianius Cohortis Primus" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C000A0000000FD975422C50A8543DE7988B75C876348375593D938BC582A70177761307756A4100000000000000000000000000000000000000003AF42002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001178044000000F4875422C50A8543D78361B7BA6E86969C9316E612AD219A201977613096797C800000000000000000000000000000000000000003B3C7082"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="140"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="90"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_mace_3_t4"/>
+      <equipment slot="Item1" id="Item.scutum_cohortis"/>
+      <equipment slot="Item2" id="Item.plumbata"/>
+      <equipment slot="Item3" id="Item.gladius_augustus"/>
+      <equipment slot="Body" id="Item.mail_shirt"/>
+      <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+      <equipment slot="Leg" id="Item.plated_strip_boots"/>
+      <equipment slot="Head" id="leatherlame_feathered_spangenhelm_over_mail"/>
+      <equipment slot="Cape" id="pauldron_cape_a"/>
+    </equipmentSet>
+    <upgrade_targets>
+	<upgrade_target id="NPCCharacter.palatinus_strategos" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="palatinus_strategos" default_group="Infantry" level="31" name="{=*}Praetorianius Singularis Augusti" occupation="Soldier" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0016A802C070100F376B288E48716ACA8B898A7C28AA4C387B23A6759853549901877613087546390000000000000000000000000000000000000000610C4102"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0016C802C070100F546B288E48716ACA1BD268D8396A16B95C526A8398C874DA019776130996C8480000000000000000000000000000000000000000612C0002"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="170"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="80"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_mace_4_t5"/>
+      <equipment slot="Item1" id="Item.desert_round_shield"/>
+      <equipment slot="Item2" id="Item.plumbata"/>
+      <equipment slot="Item3" id="Item.palatinus_sword"/>
+      <equipment slot="Body" id="Item.imperial_scale_armor"/>
+      <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+      <equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+      <equipment slot="Head" id="empire_lord_helmet"/>
+      <equipment slot="Cape" id="pauldron_cape_a"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>  
+	<!-- Pikeman -->
+	<!-- Pikeman -->
+	<!-- Pikeman -->
+	<!-- Pikeman -->
+	<!-- Pikeman -->
+	<!-- Pikeman -->
+	<!-- Pikeman -->  
+  <NPCCharacter id="hastati" default_group="HeavyInfantry" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Hastatus" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C4C0A0000000FD975628A52598654A7DB84359B53648375597D828CB8856A017776130735317100000000000000000000000000000000000000003AF42002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B9C014000000F8875628A52598654A94992EBD5B3AB2846ADA6A673B78339017776130757AED600000000000000000000000000000000000000003AF410C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="60"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.pila_princeps"/>
+      <equipment slot="Item1" id="Item.desert_oval_shield"/>
+      <equipment slot="Item2" id="Item.hastatus_gladius"/>
+      <equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+      <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+      <equipment slot="Head" id="helmet_with_faceguard"/>
+      <equipment slot="Cape" id="Item.wrapped_scarf"/>
+    </equipmentSet>
+    <upgrade_targets>
+	<upgrade_target id="NPCCharacter.triarii" />
+	</upgrade_targets>
+	</NPCCharacter>
+  <NPCCharacter id="triarii" default_group="HeavyInfantry" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Triarius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CB0000000000D5875628A52518E54A77B84C547586C8B886977A58CB885640177761307355B3400000000000000000000000000000000000000003AF42002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001C64058000000D9775628A52518E543959895687E45749BAE4CC668E5B8858018776130889777600000000000000000000000000000000000000003B144042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="15"/>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="15"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_polearm_2_t5"/>
+      <equipment slot="Item1" id="Item.southern_oval_shield"/>
+      <equipment slot="Item2" id="Item.triarius_gladius"/>
+      <equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+      <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+      <equipment slot="Head" id="tall_helmet"/>
+      <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+    </equipmentSet>
+    <upgrade_targets>
+	<upgrade_target id="NPCCharacter.triarius_honorianus" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="triarius_honorianus" default_group="HeavyInfantry" level="26" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Triarius Honorianus" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CB0000000164F9275693966544357ABB68893D6B7B834886D77A586AC3A97017776130754456700000000000000000000000000000000000000003AF43002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001C780CC000064F5245339465D77955ABB63899A67849CABD8995A586AC3A97017776130756B74B00000000000000000000000000000000000000003AF45042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="130"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="80"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.triarius_lance"/>
+      <equipment slot="Item1" id="Item.emirs_oval_shield"/>
+      <equipment slot="Item2" id="Item.triarius_gladius"/>
+      <equipment slot="Body" id="Item.legionary_mail"/>
+      <equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+      <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      <equipment slot="Head" id="plumed_helmet"/>
+      <equipment slot="Cape" id="Item.rough_bearskin"/>
+    </equipmentSet>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.contiger_evocatus" />
+	</upgrade_targets>
+	</NPCCharacter>
+  <NPCCharacter id="contiger_evocatus" default_group="HeavyInfantry" level="31" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Contiger Evocatus" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C600580CC000F8C587B69A6B926B69AD5E558739C95CBAC476B7858C85D7701B776130B8EC8490000000000000000000000000000000000000000597C7042"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00111C0580CC000F33587B69A6B926B65756EB91628737CD98B87B1147767878019776130978868A000000000000000000000000000000000000000059240002"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="160"/>
+      <skill id="Riding" value="20"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="80"/>
+      <skill id="Polearm" value="160"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.primus_lance" />
+      <equipment slot="Item1" id="Item.desert_oval_shield" />
+      <equipment slot="Item2" id="Item.contiger_gladius"/>
+      <equipment slot="Body" id="Item.desert_scale_armor"/>
+      <equipment slot="Leg" id="Item.wrapped_shoes"/>
+      <equipment slot="Head" id="empire_helmet_with_metal_strips"/>
+      <equipment slot="Cape" id="Item.desert_scale_shoulders"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+    </equipmentSet>
+	<upgrade_targets></upgrade_targets>
+	</NPCCharacter>  
+    <!-- #Cavalry -->
+    <!-- #Cavalry -->
+    <!-- #Cavalry -->
+    <!-- #Cavalry -->
+    <!-- #Cavalry -->
+    <!-- #Cavalry -->
+    <!-- #Cavalry -->
+    <!-- #Cavalry -->
+    <!-- #Cavalry -->
+    <!-- #Cavalry -->	
+  <NPCCharacter id="auxiliarus" default_group="Infantry" level="11" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Auxiliarus Lanciarius" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="000B48044000064FD98C5CCB9B935BB717AD34517497B97B852677A59B88668601777613075745B300000000000000000000000000000000000000003AF40002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00169C000000064F418C5CCB9B935BB7B9A8559466BC2646AA9A1B899A57C78A017776130767254A00000000000000000000000000000000000000003AF44002"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="90"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="80"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.civis_gladius"/>
+      <equipment slot="Item1" id="Item.imperial_throwing_spear_1_t4"/>
+      <equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+      <equipment slot="Body" id="Item.padded_leather_shirt"/>
+      <equipment slot="Leg" id="Item.turndown_leather_boots"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+      <equipment slot="Head" id="Item.laced_cloth_coif"/>
+    </equipmentSet>
+    <upgrade_targets>	 
+		<upgrade_target id="NPCCharacter.socii_equites" />	
+		<upgrade_target id="NPCCharacter.eques_explorator" />
+    </upgrade_targets>
+  </NPCCharacter>   
+  <NPCCharacter id="socii_equites" default_group="Cavalry" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Socius Eques" occupation="Soldier" upgrade_requires="ItemCategory.horse" is_basic_troop="false" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0016180FC000164FE5756B646658A25C9B76841A7788B4373B3E8F628DE4B3530177761307A9856D00000000000000000000000000000000000000003AF43002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00165C0FC000164F99756B646658A25C2A524E937BA1697BA9D4DD79B57A3855017776130737A4A800000000000000000000000000000000000000003AF40002"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="60"/>
+      <skill id="Riding" value="100"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="100"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sarissa_hoplite"/>
+      <equipment slot="Item1" id="Item.empire_sword_1_t2"/>
+      <equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+      <equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+      <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+      <equipment slot="Head" id="Item.helmet_with_faceguard"/>
+      <equipment slot="Cape" id="Item.wrapped_scarf"/>
+      <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.empire_horse"/>
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.celer" />		
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="celer" default_group="Cavalry" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Celer" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="000B7C0580A0200D49545EAA51E9DD82DB975B34389A9568687648577C98B877014776130452BA7900000000000000000000000000000000000000002E7C5082"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B580140A0000DD94AD4A85EA94682877A78DD6B77A7673699BC4A8BD5941A0147761304A8835E00000000000000000000000000000000000000002E7C4042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="160"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="160"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_lance_1_t3"/>
+      <equipment slot="Item1" id="Item.empire_sword_2_t3"/>
+      <equipment slot="Item2" id="Item.desert_oval_shield"/>
+      <equipment slot="Body" id="Item.imperial_mail_over_leather"/>
+      <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+      <equipment slot="Head" id="Item.tall_helmet"/>
+      <equipment slot="Cape" id="Item.wrapped_scarf"/>
+      <equipment slot="Gloves" id="Item.padded_vambrace"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.empire_horse"/>
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.foederatus" />
+    </upgrade_targets>
+
+  </NPCCharacter>
+  <NPCCharacter id="eques_explorator" default_group="LightCavalry" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Eques Explorator" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CCC01402C0012A9875CBC76A866A91A787CBC4887677888896D5B96B5571E01B776130B98C55C0000000000000000000000000000000000000000576C1042"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001C8008802C00129E875CBC76A866A96687AB8ABE7869988349B7C698C5393701B776130B6989790000000000000000000000000000000000000000576C1042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="90"/>
+      <skill id="Riding" value="120"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Throwing" value="80"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+      <equipment slot="Item1" id="Item.desert_round_shield"/>
+      <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+      <equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+      <equipment slot="Body" id="Item.padded_cloth_with_strips"/>
+      <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+      <equipment slot="Head" id="Item.wrapped_headcloth"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.storm_charger"/>
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.eques_speculator" />
+		<upgrade_target id="NPCCharacter.auxiliary_bucellarii" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="eques_speculator" default_group="LightCavalry" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Eques Speculator" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0000A802C044000E957556999C25683981A994739AA696CB986853BC8776387901A776130A8178B400000000000000000000000000000000000000000D5C30C2"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00004802C044000E48B4A83B865C595ADB57BA6DB79744C3A25EE94A4759A89701A776130A7759B800000000000000000000000000000000000000000D5C4002"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="120"/>
+      <skill id="Riding" value="160"/>
+      <skill id="OneHanded" value="160"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="160"/>
+      <skill id="Throwing" value="100"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_sword_4_t4"/>
+      <equipment slot="Item1" id="Item.eastern_throwing_spear_2_t4"/>
+      <equipment slot="Item2" id="Item.emirs_oval_shield"/>
+      <equipment slot="Item3" id="Item.northern_javelin_3_t4"/>
+      <equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather"/>
+      <equipment slot="Body" id="Item.empire_warrior_padded_armor_g"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+      <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.noble_horse"/>
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.eques_draconarius" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="eques_draconarius" default_group="LightCavalry" level="26" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Eques Draconarius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CB40FC014100FB8B75984DDAA365575699894C58AD7A5AB7865ADAA8778A701677613067C238A000000000000000000000000000000000000000052D43102"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B4402C014100F25B75984DDAA365548E37F18DA58A5CA4276A82C7497428D01877613087BE8860000000000000000000000000000000000000000531C70C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="150"/>
+      <skill id="Riding" value="190"/>
+      <skill id="OneHanded" value="190"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="190"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_sword_6_t5"/>
+      <equipment slot="Item1" id="Item.draconarius_lance"/>
+      <equipment slot="Item2" id="Item.draconarius_banner"/>
+      <equipment slot="Head" id="Item.wolfhead"/>
+      <equipment slot="Body" id="Item.legionary_mail"/>
+      <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+      <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+      <equipment slot="Cape" id="Item.wolf_shoulder"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.noble_horse"/>
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="auxiliary_bucellarii" default_group="HorseArcher" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Auxiliarus Bucellarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C880440B4000F48AAB979A7441705024583789767877696498898C697764301277613023A545A00000000000000000000000000000000000000000C444102"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001C780000B4000F6DAAB979A7441705A6A879B8979996A98F99499983B9390A0197761309689A5700000000000000000000000000000000000000000D1C60C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="120"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="120"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.pilus_sword"/>
+      <equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+      <equipment slot="Item2" id="Item.steppe_war_bow"/>
+      <equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+      <equipment slot="Body" id="Item.empire_horseman_armor"/>
+      <equipment slot="Gloves" id="Item.leather_gloves"/>
+      <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+      <equipment slot="Head" id="Item.imperial_mail_coif"/>
+      <equipment slot="Cape" id="Item.pauldron_cape_a"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.storm_charger"/>
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.palatinus_bucellarius" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="palatinus_bucellarius" default_group="HorseArcher" level="26" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Palatinus Bucellarius" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C50044014200D9746689BDA88BCA3B7868B8688A64652570197656B96956601B776130B92976A000000000000000000000000000000000000000045746002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001CDC044014300D75624879A22864A5B4BC5268C95545B9B5A6ABC8298C968001B776130B68A89B0000000000000000000000000000000000000000457450C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="120"/>
+      <skill id="Riding" value="150"/>
+      <skill id="OneHanded" value="150"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="150"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sagittarius_sword"/>
+      <equipment slot="Item1" id="Item.piercing_arrows"/>
+      <equipment slot="Item2" id="Item.noble_bow"/>
+      <equipment slot="Item3" id="Item.piercing_arrows"/>
+      <equipment slot="Head" id="Item.plumed_helmet"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+      <equipment slot="Body" id="Item.imperial_scale_armor"/>
+      <equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+      <equipment slot="Cape" id="Item.imperial_lamellar_shoulders"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.noble_horse_western"/>
+    <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="foederatus" default_group="Cavalry" level="26" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Foederatus" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="00160C0B40CC200F78A534A87759B5672779239C983492A846B4CE1A28398797019776130996ABB700000000000000000000000000000000000000004B245082"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00055C0B40CC000F93A534A87759B5679A67939593C49AB547AA4993CCE22C57019776130998666800000000000000000000000000000000000000004B248082"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="180"/>
+      <skill id="OneHanded" value="180"/>
+      <skill id="TwoHanded" value="25"/>
+      <skill id="Polearm" value="180"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+      <equipment slot="Item1" id="Item.southern_oval_shield"/>
+      <equipment slot="Item2" id="Item.empire_lance_2_t4"/>
+      <equipment slot="Head" id="Item.plumed_helmet"/>
+      <equipment slot="Body" id="Item.legionary_mail"/>
+      <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+      <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+      <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.t2_empire_horse"/>
+    <equipment slot="HorseHarness" id="Item.half_scale_barding"/>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.clibanarius" />
+      <upgrade_target id="NPCCharacter.cataphractarius" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="clibanarius" default_group="HeavyCavalry" level="31" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Clibanarius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="000B7C0E4014000F79DA44948746A8A764B9ABD8C3A7CAA8FA7B7965A7C6B76B019776130989DB9C00000000000000000000000000000000000000004B3C3102"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001698044014000F87DA44948746A8A7467664676889AB5C2A49CB45658969460197761309C5C37400000000000000000000000000000000000000004B3C2042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="120"/>
+      <skill id="Riding" value="200"/>
+      <skill id="OneHanded" value="240"/>
+      <skill id="TwoHanded" value="25"/>
+      <skill id="Polearm" value="220"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+      <equipment slot="Item1" id="Item.western_kite_shield"/>
+      <equipment slot="Item2" id="Item.primus_sword"/>
+      <equipment slot="Head" id="Item.decorated_goggled_helmet"/>
+      <equipment slot="Cape" id="Item.wrapped_scarf"/>
+      <equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+      <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+      <equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.noble_horse_imperial"/>
+    <equipment slot="HorseHarness" id="Item.chain_barding"/>
+  </NPCCharacter>
+  <NPCCharacter id="cataphractarius" default_group="HeavyCavalry" level="31" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Cataphractarius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C700580CC069241DC55D7C8A7676562A3B9997698777A8966468D82B94B3701B776130BE898720000000000000000000000000000000000000000396C80C2"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001CAC02C0CC00124BDC55D7C8A767658AD7733BA765AD766BCA7BA769A7287B01B776130BAB19460000000000000000000000000000000000000000396C20C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="120"/>
+      <skill id="Riding" value="200"/>
+      <skill id="OneHanded" value="220"/>
+      <skill id="TwoHanded" value="25"/>
+      <skill id="Polearm" value="240"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item3" id="Item.primus_sword"/>
+      <equipment slot="Item2" id="Item.ironrim_kite_shield"/>
+      <equipment slot="Item0" id="Item.primus_lance"/>
+      <equipment slot="Head" id="Item.imperial_goggled_helmet"/>
+      <equipment slot="Cape" id="Item.imperial_lamellar_shoulders"/>
+      <equipment slot="Body" id="Item.imperial_scale_armor"/>
+      <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+      <equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.noble_horse_imperial"/>
+    <equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
+  </NPCCharacter>  
+    <!-- #Skirmisher -->
+    <!-- #Skirmisher -->
+    <!-- #Skirmisher -->
+    <!-- #Skirmisher -->
+    <!-- #Skirmisher --> 
+	<!-- #Skirmisher -->
+    <!-- #Skirmisher -->
+    <!-- #Skirmisher -->	
+  <NPCCharacter id="accensi" default_group="Skirmisher" level="11" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Accensus" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25" weight="0.5" build="0.5"  key="001C38044000000D2976523977417B4DC57B8D69766422F25A362F6D86C78452017776130796BB3600000000000000000000000000000000000000003AF42102"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001C50000000000D8976523977417B4D667789C554C678247A4463A86684A896017776130747878800000000000000000000000000000000000000003AF47002"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="60"/>
+      <skill id="OneHanded" value="50"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Throwing" value="50"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.civis_gladius"/>
+      <equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+      <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+      <equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4"/>
+      <equipment slot="Body" id="Item.empire_short_dress"/>
+      <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.leves" />
+	  <upgrade_target id="NPCCharacter.tiro_sagittarius" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="leves" default_group="Skirmisher" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Levis" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CB80CC000000FCC7542895243236845AB868744AA4CC4272646558C9B6395017776130795697800000000000000000000000000000000000000003AF43002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001198058000000F6C754289524323683C35798BD6A6499AC798B6868459D529019776130994282D00000000000000000000000000000000000000003B3C3102"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Throwing" value="70"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.levis_pilum"/>
+      <equipment slot="Item1" id="Item.levis_pilum"/>
+      <equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+      <equipment slot="Item3" id="Item.auxiliarus_gladius"/>
+      <equipment slot="Body" id="Item.fine_town_tunic"/>
+      <equipment slot="Leg" id="Item.fine_town_boots"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.velites" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="velites" default_group="Skirmisher" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Veles" occupation="Soldier" culture="Culture.empire" skill_template="NPCCharacter.ranged_skirmisher_level21_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C48014058200F4999B36431C77CAB69548D966667B75AB3851A5384A94B4401D776130D882A1200000000000000000000000000000000000000002FB46082"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0011B4014058000F9AB792C9498373BD86719B96A668956BA836CB59895A49140187761308458A5C00000000000000000000000000000000000000002F1C2042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="130"/>
+      <skill id="OneHanded" value="60"/>
+      <skill id="TwoHanded" value="100"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Throwing" value="100"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.veles_pilum"/>
+      <equipment slot="Item1" id="Item.veles_pilum"/>
+      <equipment slot="Item2" id="Item.civis_gladius"/>
+      <equipment slot="Item3" id="Item.desert_oval_shield"/>
+      <equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+      <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+      <equipment slot="Head" id="Item.wolfhead"/>
+    </equipmentSet>
+	<upgrade_targets>
+		<upgrade_target id="NPCCharacter.veles_electum" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="veles_electum" default_group="Skirmisher" level="26" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Veles Electum" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C880A002C100F4777B69A59949EA252968706294EA77A756898268446B4770167761306A5C473000000000000000000000000000000000000000076CC5002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00114804402C000F5977B69A59949EA2C97D589555A36C4A6362944DD8373A590197761309583628000000000000000000000000000000000000000077348042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="160"/>
+      <skill id="OneHanded" value="130"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Throwing" value="130"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.electum_pilum"/>
+      <equipment slot="Item1" id="Item.electum_pilum"/>
+      <equipment slot="Item2" id="Item.empire_sword_4_t4"/>
+      <equipment slot="Item3" id="Item.emirs_oval_shield"/>
+      <equipment slot="Body" id="Item.leather_scale_armor"/>
+      <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      <equipment slot="Gloves" id="Item.highland_gloves"/>
+      <equipment slot="Head" id="Item.bearhead"/>
+      <equipment slot="Cape" id="Item.bearskin"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>  
+    <!-- #Ranged -->
+	<!-- #Ranged -->
+	<!-- #Ranged -->
+    <!-- #Ranged -->
+    <!-- #Ranged -->
+    <!-- #Ranged -->
+    <!-- #Ranged -->
+    <!-- #Ranged -->
+    <!-- #Ranged --> 
+	<!-- #Ranged --> 
+	<!-- #Ranged -->
+  <NPCCharacter id="tiro_sagittarius" default_group="Ranged" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Tiro Sagittarius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CB800000015CE7975422C50A853627528866628DAC69AC5564D3986C58255017776130745655300000000000000000000000000000000000000003AF42002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B1402C00015CE3275422C50A853629196884B789485A7984BC5A3AE691738019776130949353A00000000000000000000000000000000000000003B2400C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="OneHanded" value="60"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.composite_bow"/>
+      <equipment slot="Item1" id="Item.imperial_throwing_spear_1_t4"/>
+      <equipment slot="Item2" id="Item.arrow_emp_1_a"/>
+      <equipment slot="Item3" id="Item.bound_desert_round_sparring_shield"/>
+      <equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+      <equipment slot="Leg" id="Item.fine_town_boots"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.sagittarius" />
+    </upgrade_targets>
+  </NPCCharacter>	
+  <NPCCharacter id="sagittarius" default_group="Ranged" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Sagittarius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="002888058070200083799647C5A2CD29597693897D368A2ABEC696921A41B757019776130969A8BA0000000000000000000000000000000000000000172C8002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00118805807000008A29498D98A7484BB8434E838B8948CA416A8AEAA5BB89A10157761305469AE4000000000000000000000000000000000000000016B46082"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="OneHanded" value="80"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="100"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sagitta_bow"/>
+      <equipment slot="Item1" id="Item.sagitta"/>
+      <equipment slot="Item2" id="Item.sagitta"/>
+      <equipment slot="Item3" id="Item.gladius_princeps"/>
+      <equipment slot="Head" id="Item.imperial_nasal_helm"/>
+      <equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+      <equipment slot="Leg" id="Item.fine_town_boots"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.cohortis_sagittarius" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="cohortis_sagittarius" default_group="Ranged" level="26" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Sagittarius Cohortis Primus" occupation="Soldier" culture="Culture.empire" skill_template="NPCCharacter.ranged_skirmisher_level21_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0016B00880E4000D277386689485899E6776A8571AA878474B88768AE9AB992601777613076C72D5000000000000000000000000000000000000000044F420C2"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00057C0FC0E4000D9B7386689485899E71A914BC76CC2767B283B68E92CDD93A01A776130A3699570000000000000000000000000000000000000000454470C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="120"/>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="130"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item2" id="Item.steppe_war_bow"/>
+      <equipment slot="Item0" id="Item.sagitta_primus"/>
+      <equipment slot="Item1" id="Item.sagitta_primus"/>
+      <equipment slot="Item3" id="Item.gladius_senatus"/>
+      <equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
+      <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+      <equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.sagittarius_evocatus" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="sagittarius_evocatus" default_group="Ranged" level="31" civilianTemplate="NPCCharacter.battania_troop_civilian_template_t2" name="{=1zObCG2o}Sagittarius Evocatus" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="00059402C070000F155489DB538A78337D582289867C9A9C8163234764D66A270137761303587C750000000000000000000000000000000000000000225C4082"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0016680A0070000F605489DB538A783398AAB837C79878B3383345B785B7865801A776130A515A780000000000000000000000000000000000000000234C4002"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="140"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="150"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.palatinus_bow"/>
+      <equipment slot="Item1" id="Item.sagitta_primus"/>
+      <equipment slot="Item2" id="Item.sagitta_primus"/>
+      <equipment slot="Item3" id="Item.sagittarius_sword"/>
+      <equipment slot="Body" id="Item.lamellar_with_scale_skirt"/>
+      <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_mail"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+      <equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+      <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>  
+  <!--MILITIA-->
+  <!--MILITIA-->
+  <!--MILITIA-->
+  <!--MILITIA-->
+  <!--MILITIA-->
+  <!--MILITIA-->
+  <!--MILITIA-->
+  <!--MILITIA-->  
+  <NPCCharacter id="civis" default_group="Infantry" level="6" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Civis" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0011A800002C000F4A23EA725A9857967578C486547A47563824592653652E5E014776130475F365000000000000000000000000000000000000000032841082"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00001000002C000F4623EA725A985796A28C549887637592B9C4CA5953A232660197761309353A7A0000000000000000000000000000000000000000333450C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="25"/>
+      <skill id="OneHanded" value="20"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Throwing" value="20"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.seax"/>
+      <equipment slot="Item1" id="Item.throwing_stone"/>
+      <equipment slot="Item3" id="Item.banner_big"/>
+      <equipment slot="Body" id="Item.fine_town_tunic"/>
+      <equipment slot="Leg" id="Item.fine_town_boots"/>
+    </equipmentSet>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.roranius" />
+		<upgrade_target id="NPCCharacter.vigil" />
+	</upgrade_targets>
+  </NPCCharacter>   
+  <NPCCharacter id="roranius" default_group="Skirmisher" level="11" name="{=*}Roranius" occupation="Soldier" culture="Culture.empire" skill_template="NPCCharacter.ranged_skirmisher_level11_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CAC0A000015CF4D93D738B5988E6658D663C79D353A39859BD7A988D1646A014776130458583A0000000000000000000000000000000000000000508C8042"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B6C02C000000FD793D738B5988E6627878B876BA37DA7B2E59C5A35ADA8AC0197761309AAE5880000000000000000000000000000000000000000512C4102"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="OneHanded" value="40"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.civis_gladius"/>
+      <equipment slot="Item1" id="Item.western_javelin_1_t2"/>
+      <equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+      <equipment slot="Item3" id="Item.bound_adarga"/>
+      <equipment slot="Body" id="Item.footmans_tunic"/>
+      <equipment slot="Leg" id="Item.fine_town_boots"/>
+      <equipment slot="Head" id="Item.imperial_leather_coif"/>
+      <equipment slot="Cape" id="Item.wrapped_scarf"/>
+      <equipment slot="Gloves" id="Item.padded_vambrace"/>
+    </equipmentSet>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.roranius_veterani" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="roranius_veterani" default_group="Ranged" level="16" name="{=*}Roranius Veterani" occupation="Soldier" culture="Culture.empire" skill_template="NPCCharacter.ranged_skirmisher_level11_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C5C014014100E6A9898997DD796AA895667887EAC959688E6A9772C78143601677613068DA5A6000000000000000000000000000000000000000040CC6002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B24014014000E7393683468754969B9919B7A48845475724A928879686D1B01A776130A652998000000000000000000000000000000000000000041443102"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="50"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="70"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.roranius_sword"/>
+      <equipment slot="Item1" id="Item.glen_ranger_bow"/>
+      <equipment slot="Item2" id="Item.arrow_emp_1_a"/>
+      <equipment slot="Item3" id="Item.arrow_emp_1_a"/>
+      <equipment slot="Body" id="Item.empire_warrior_padded_armor_d"/>
+      <equipment slot="Leg" id="Item.woven_leather_boots"/>
+      <equipment slot="Head" id="Item.cervelliere_over_laced_coif"/>
+      <equipment slot="Gloves" id="Item.padded_vambrace"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="vigil" default_group="Infantry" level="11" name="{=*}Vigil" occupation="Soldier" culture="Culture.empire" skill_template="NPCCharacter.infantry_heavyinfantry_level11_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0011200711B4064F6B673C5937345463C9C45677B65C9BA86B4CC7227C8F95350127761302695A4A000000000000000000000000000000000000000040344042"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0005780711B4000F57673C593734546864975553A9A5559E5737859DA7D77D6701A776130A784CC90000000000000000000000000000000000000000415460C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.princeps_pilum"/>
+      <equipment slot="Item1" id="Item.imperial_axe_t3"/>
+      <equipment slot="Item2" id="Item.desert_round_shield"/>
+      <equipment slot="Body" id="Item.empire_warrior_padded_armor_d"/>
+      <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      <equipment slot="Head" id="Item.tall_helmet"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+    </equipmentSet>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.urbani" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="urbani" default_group="Infantry" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Urbanicianus" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C940E4044300D8865B8C9A599D9465CA4567664C48B54AB47838619A757850187761308D4734A0000000000000000000000000000000000000000371C6002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B88044044000D6A65B8C9A599D9461B2C5595B88B8C6736690A8596A867290187761308483ECB0000000000000000000000000000000000000000371C0102"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+      <equipment slot="Item1" id="Item.empire_mace_2_t4"/>
+      <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4"/>
+      <equipment slot="Item3" id="Item.scutum_contubernium"/>
+      <equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+      <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+      <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+      <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+      <equipment slot="Head" id="Item.plumed_helmet"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>  
+    <!--CARAVAN-->
+    <!--CARAVAN-->
+	<!--CARAVAN--> 
+    <!--CARAVAN-->
+	<!--CARAVAN-->
+	<!--CARAVAN-->
+	<!--CARAVAN-->    
+  <NPCCharacter id="tiro_custos" default_group="Ranged" level="11" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Tiro Custos Mercatoris" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="000B1402C088300F58A494313A464EAAC588386657795B869774631699A766CA015776130587672900000000000000000000000000000000000000002AAC0082"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000BB8058088000FAAA494313A464EAA86571857774B877957908B3778837747019776130947379500000000000000000000000000000000000000002B343002"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="30"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.civis_gladius"/>
+      <equipment slot="Item1" id="Item.nordic_shortbow"/>
+      <equipment slot="Item2" id="Item.arrow_emp_1_a"/>
+      <equipment slot="Item3" id="Item.arrow_emp_1_a"/>
+      <equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+      <equipment slot="Leg" id="Item.fine_town_boots"/>
+      <equipment slot="Head" id="Item.wrapped_headcloth"/>
+    </equipmentSet>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.custos" />
+		<upgrade_target id="NPCCharacter.custos_eques" />
+	</upgrade_targets>
+  </NPCCharacter>  
+  <NPCCharacter id="custos" default_group="Ranged" level="16" name="{=*}Custos Mercatoris" occupation="CaravanGuard" culture="Culture.empire" is_basic_troop="true" skill_template="NPCCharacter.ranged_skirmisher_level6_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C2C0440FC000F5574868179A7A8B8E99A488853879DD73B3A648B635335AA01877613082787A40000000000000000000000000000000000000000390C1002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0011740440FC000FBD74868179A7A8B87C249384D889A93867A89836868771470197761309D787660000000000000000000000000000000000000000393C30C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="90"/>
+      <skill id="Bow" value="60"/>
+      <skill id="OneHanded" value="90"/>
+      <skill id="Polearm" value="120"/>
+      <skill id="Riding" value="60"/>
+      <skill id="Throwing" value="60"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Crossbow" value="100"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.hastatus_gladius"/>
+      <equipment slot="Item1" id="Item.sagitta_bow"/>
+      <equipment slot="Item2" id="Item.sagitta"/>
+      <equipment slot="Item3" id="Item.sagitta"/>
+      <equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+      <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+      <equipment slot="Head" id="Item.imperial_nasal_helm"/>
+      <equipment slot="Cape" id="Item.wrapped_scarf"/>
+    </equipmentSet>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.custos_evocatus" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="custos_evocatus" default_group="Ranged" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Custos Mercatoris Evocatus" occupation="Soldier" culture="Culture.empire" skill_template="NPCCharacter.ranged_skirmisher_level21_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0005600E4088100FC1B172C57254B827AD6A29317A9848B9E4BB96AC95956768012776130262AEB600000000000000000000000000000000000000004E3C3082"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00056C0E4088000FEDB172C57254B82786497C288A87787D6B8AA8A047E6326B01A776130A5B84C700000000000000000000000000000000000000004F442102"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="15"/>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="100"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="100"/>
+      <skill id="Crossbow" value="120"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.triarius_gladius"/>
+      <equipment slot="Item1" id="Item.crossbow_b"/>
+      <equipment slot="Item2" id="Item.bolt_d"/>
+      <equipment slot="Item3" id="Item.bolt_d"/>
+      <equipment slot="Body" id="Item.imperial_mail_over_leather"/>
+      <equipment slot="Leg" id="Item.plated_strip_boots"/>
+      <equipment slot="Head" id="Item.helmet_with_faceguard"/>
+      <equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="custos_eques" default_group="HorseArcher" level="16" name="{=*}Eques Custos Mercatoris" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.empire" skill_template="NPCCharacter.infantry_heavyinfantry_level16_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0011B40B4070200D6AA474C57967788666B7761575876D6CCE7B54848C89299601E776130E626358000000000000000000000000000000000000000023D400C2"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00058802C070000DA3A474C5796778863478AABB759DD379B4A73A7A658A5688018776130838B7B80000000000000000000000000000000000000000230C50C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="60"/>
+      <skill id="Riding" value="70"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="50"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="10"/>
+      <skill id="Throwing" value="10"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sagittarius_sword"/>
+      <equipment slot="Item1" id="Item.nordic_shortbow"/>
+      <equipment slot="Item2" id="Item.arrow_emp_1_a"/>
+      <equipment slot="Item3" id="Item.arrow_emp_1_a"/>
+      <equipment slot="Body" id="Item.empire_warrior_padded_armor_b"/>
+      <equipment slot="Leg" id="Item.fine_town_boots"/>
+      <equipment slot="Head" id="Item.aserai_civil_f_cape"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.empire_horse"/>
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.custos_eques_primus" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="custos_eques_primus" default_group="HorseArcher" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Eques Custos Mercatoris Primus" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C5C0CD2CC300FC8897EE50545B4A8A39B9888AD8ADB2362A78944B7A43798019776130977992800000000000000000000000000000000000000005B2C3042"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0011B00012CC000F59897EE50545B4A8555349565AA75E54526573497736A9690157761305B77EB600000000000000000000000000000000000000005AB420C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="110"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="50"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="15"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.eques_sword"/>
+      <equipment slot="Item1" id="Item.sagitta_bow"/>
+      <equipment slot="Item2" id="Item.sagitta"/>
+      <equipment slot="Item3" id="Item.sagitta"/>
+      <equipment slot="Head" id="Item.spangenhelm_with_leather"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+      <equipment slot="Body" id="Item.eastern_studded_leather"/>
+      <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.t2_empire_horse"/>
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="tiro_archiatroi" default_group="Infantry" level="11" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Tiro Archiatroi Mercatoris" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C84044088000F3AB6779B6545584A89AB5DC6D8A7CD23657774B49B45754801677613069DD65A000000000000000000000000000000000000000044D48082"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B94044088000FDA756E36B299B81DAAC88A89E7793E8485C35AB5A49D936201A776130A3614450000000000000000000000000000000000000000454C7042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="40"/>
+      <skill id="TwoHanded" value="20"/>
+      <skill id="Polearm" value="40"/>
+      <skill id="Bow" value="15"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
+      <equipment slot="Item1" id="Item.western_javelin_1_t2"/>
+      <equipment slot="Item2" id="Item.bound_desert_round_sparring_shield"/>
+      <equipment slot="Item3" id="Item.gladius_princeps"/>
+      <equipment slot="Body" id="Item.footmans_tunic"/>
+      <equipment slot="Leg" id="Item.fine_town_boots"/>
+      <equipment slot="Cape" id="Item.wrapped_scarf"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.archiatroi"/>
+      <upgrade_target id="NPCCharacter.archiatroi_eques"/>
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="archiatroi" default_group="Infantry" level="16" name="{=*}Archiatroi Mercatoris" occupation="CaravanGuard" culture="Culture.empire" skill_template="NPCCharacter.infantry_heavyinfantry_level26_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="00118C0CC0FC000F995888EC5AC9C56D6C9779BA78988A76D957888AE627657801877613082D578C0000000000000000000000000000000000000000590C6002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001CD00580FC000F9D5888EC5AC9C56DB7DD277274488AB4625A2BDB699C974A01A776130A4976850000000000000000000000000000000000000000594C0082"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="70"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.princeps_pilum"/>
+      <equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+      <equipment slot="Item2" id="Item.gladius_senatus"/>
+      <equipment slot="Body" id="Item.mail_shirt"/>
+      <equipment slot="Leg" id="Item.plated_strip_boots"/>
+      <equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+      <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+    </equipmentSet>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.archiatroi_evocatus" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="archiatroi_evocatus" default_group="Infantry" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=yrGYZsQ7}Archiatroi Mercatoris Evocatus" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001194000044100E5C7755BA5896ADE9AB2A849857957BD7B7A67BCA768B75870187761308736985000000000000000000000000000000000000000029042002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001C440E4044000E897755BA5896ADE987725C8997D879AB86BA84759CA6789801A776130A7A3AA9000000000000000000000000000000000000000029441082"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="15"/>
+      <skill id="OneHanded" value="100"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="45"/>
+      <skill id="Crossbow" value="45"/>
+      <skill id="Throwing" value="60"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.triarius_lance"/>
+      <equipment slot="Item1" id="Item.northern_round_shield"/>
+      <equipment slot="Item2" id="Item.legionarius_pilum"/>
+      <equipment slot="Item3" id="Item.gladius_augustus"/>
+      <equipment slot="Body" id="Item.legionary_mail"/>
+      <equipment slot="Gloves" id="Item.lamellar_plate_gauntlets"/>
+      <equipment slot="Leg" id="Item.lamellar_plate_boots"/>
+      <equipment slot="Head" id="Item.wolfhead"/>
+      <equipment slot="Cape" id="Item.wolf_shoulder"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="archiatroi_eques" default_group="Cavalry" level="16" name="{=*}Eques Archiatroi Mercatoris" upgrade_requires="ItemCategory.war_horse" occupation="CaravanGuard" culture="Culture.empire" skill_template="NPCCharacter.cavalry_lightcavalry_heavycavalry_level26_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0005BC058014000F657758E5557667A9B66A9C76578B497657236BDA7659B3740197761309AD78850000000000000000000000000000000000000000532C4082"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="001160014014000F657758E5557667A9B66AA7BA74A8AB2B49848166D9C67B1B0167761306477847000000000000000000000000000000000000000052BC40C2"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="60"/>
+      <skill id="Riding" value="70"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="100"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="10"/>
+      <skill id="Throwing" value="10"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sagittarius_sword"/>
+      <equipment slot="Item1" id="Item.pila_princeps"/>
+      <equipment slot="Item2" id="Item.desert_oval_shield"/>
+      <equipment slot="Body" id="Item.padded_cloth_with_strips"/>
+      <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+      <equipment slot="Head" id="Item.tall_helmet"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.empire_horse"/>
+    <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+    <upgrade_targets>
+		<upgrade_target id="NPCCharacter.archiatroi_eques_primus" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="archiatroi_eques_primus" default_group="Cavalry" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Eques Archiatroi Mercatoris Primus" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C6C02C02C200F689A297D8766B9E47662CC5A979649567C91687E783299AB01977613097774AA00000000000000000000000000000000000000003D3480C2"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000BA40A002C000F4DC93D4A6848778A66768A757766485A8BB25BB169C755740167761306695D6A00000000000000000000000000000000000000003CBC8002"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="40"/>
+      <skill id="Riding" value="110"/>
+      <skill id="OneHanded" value="110"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="150"/>
+      <skill id="Bow" value="40"/>
+      <skill id="Crossbow" value="15"/>
+      <skill id="Throwing" value="15"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.eques_sword"/>
+      <equipment slot="Item1" id="Item.primus_lance"/>
+      <equipment slot="Item2" id="Item.northern_round_shield"/>
+      <equipment slot="Head" id="Item.plumed_helmet"/>
+      <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders"/>
+      <equipment slot="Body" id="Item.imperial_mail_vest"/>
+      <equipment slot="Gloves" id="Item.reinforced_mail_mitten"/>
+      <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.t2_empire_horse"/>
+    <equipment slot="HorseHarness" id="Item.half_scale_barding"/>>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>  
+    <!--VILLAGERS-->
+    <!--VILLAGERS--> 
+	<!--VILLAGERS--> 
+	<!--VILLAGERS--> 
+	<!--VILLAGERS--> 
+	<!--VILLAGERS--> 
+	<!--VILLAGERS--> 
+  <NPCCharacter id="villager_empire" default_group="Infantry" name="{=*}Agricola" level="1" occupation="Townsfolk" culture="Culture.empire">
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.verutus" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="verutus" default_group="Infantry" level="6" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Verutus" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="00224C044044200DC3993A839AA87786B854D99A7978954DA5A94A5EB86945680177761307485D8C00000000000000000000000000000000000000001EF42042"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00117802C044000D47993A839AA8778678D3D989A87852B3888B3ACAA358596701A776130A61BB7C00000000000000000000000000000000000000001F448082"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="35"/>
+      <skill id="Riding" value="0"/>
+      <skill id="OneHanded" value="35"/>
+      <skill id="TwoHanded" value="10"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="5"/>
+      <skill id="Crossbow" value="5"/>
+      <skill id="Throwing" value="35"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.civis_gladius"/>
+      <equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+      <equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+      <equipment slot="Body" id="Item.footmans_tunic"/>
+      <equipment slot="Leg" id="Item.fine_town_boots"/>
+      <equipment slot="Head" id="Item.leather_cap"/>
+      <equipment slot="Cape" id="Item.wrapped_scarf"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.arcuarius" />
+      <upgrade_target id="NPCCharacter.hoplites" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="arcuarius" default_group="Ranged" level="11" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t1" name="{=*}Arcuarius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C740E4000100E337B89A899AB668C96577C9A1E74CB9986C9375EC9B888220177761307B5D486000000000000000000000000000000000000000042DC3102"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0011B00E4000000E197B89A899AB668C9E788AB5B25C9DA7AA694737C7976887019776130997C5360000000000000000000000000000000000000000433C5042"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="50"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="50"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="20"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+      <equipment slot="Item1" id="Item.scutarius_sword"/>
+      <equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+      <equipment slot="Item3" id="Item.arrow_emp_1_a"/>
+      <equipment slot="Head" id="Item.arming_coif"/>
+      <equipment slot="Body" id="Item.nordic_padded_cloth"/>
+      <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+      <equipment slot="Cape" id="Item.wrapped_scarf"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.arcuarius_exercitatus" />
+      <upgrade_target id="NPCCharacter.eques_pilatus" />
+	</upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="arcuarius_exercitatus" default_group="Ranged" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Arcuarius Exercitatus" occupation="Soldier" culture="Culture.empire" skill_template="NPCCharacter.ranged_skirmisher_level21_template_skills">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0011C80440FC36485946835783CC56DC67E6A879C7867C68A462DC3C85845B9701977613096A595400000000000000000000000000000000000000005D2C2042"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0005B00140FC0648AD46835783CC56DC4197947752AB36787DB7C63256566A7501577613051A6B6B00000000000000000000000000000000000000005CB41082"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="70"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="70"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.imperial_axe_t3"/>
+      <equipment slot="Item1" id="Item.glen_ranger_bow"/>
+      <equipment slot="Item2" id="Item.princeps_pilum"/>
+      <equipment slot="Item3" id="Item.piercing_arrows"/>
+      <equipment slot="Head" id="Item.pilgrim_hood"/>
+      <equipment slot="Body" id="Item.nordic_sloven"/>
+      <equipment slot="Leg" id="Item.folded_town_boots"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.arcanus" />
+    </upgrade_targets>
+  </NPCCharacter>
+  <NPCCharacter id="arcanus" default_group="Ranged" level="21" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3" name="{=*}Arcanus" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C380E4058200FC8CCC726C8C4453ECA87B89BA652C6A7B55DD77737C254E50187761308937C3500000000000000000000000000000000000000004EFC1002"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B600E4058000D77CCC726C8C4453E46338A987A9D2939D86B599BDDA9537A01A776130A06996600000000000000000000000000000000000000004F646102"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="120"/>
+      <skill id="Riding" value="15"/>
+      <skill id="OneHanded" value="120"/>
+      <skill id="TwoHanded" value="60"/>
+      <skill id="Polearm" value="60"/>
+      <skill id="Bow" value="120"/>
+      <skill id="Crossbow" value="120"/>
+      <skill id="Throwing" value="120"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.crossbow_f"/>
+      <equipment slot="Item1" id="Item.bolt_e"/>
+      <equipment slot="Item2" id="Item.empire_sword_4_t4"/>
+      <equipment slot="Item3" id="Item.empire_throwingknife_t5"/>
+      <equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+      <equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+      <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
+      <equipment slot="Head" id="Item.tight_head_scarf"/>
+      <equipment slot="Cape" id="Item.scarf"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>  
+  <NPCCharacter id="hoplites" default_group="Infantry" level="11" civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t1" name="{=*}Hoplite" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="00160802C0E4000F283B76A837482579CBCC58899CC89A96586A775B7679675801977613097DC94911132500310030580000000000002A700000000039347003"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B3C0CC0E4000FA53B76A837482579499937CB785A369C57897AC8BC59314901677613064B971911132500310030580000000000002A700000000038D43003"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="5"/>
+      <skill id="OneHanded" value="80"/>
+      <skill id="TwoHanded" value="15"/>
+      <skill id="Polearm" value="80"/>
+      <skill id="Bow" value="50"/>
+      <skill id="Crossbow" value="20"/>
+      <skill id="Throwing" value="40"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sarissa_hoplite"/>
+      <equipment slot="Item1" id="Item.steel_round_shield"/>
+      <equipment slot="Body" id="Item.empire_short_dress"/>
+      <equipment slot="Leg" id="Item.wrapped_shoes"/>
+      <equipment slot="Head" id="Item.plumed_helmet"/>
+    </equipmentSet>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.kluddacorius" />
+      <upgrade_target id="NPCCharacter.securifer_illyricum" />
+	</upgrade_targets>
+  </NPCCharacter> 
+  <NPCCharacter id="kluddacorius" default_group="Infantry" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Auxiliarus Kluddacorius" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C640E40B4164F852666A7835C23665C958759A36CD76293749E9B4AD784E4018776130878A7AA11132500310030580000000000002A70000000001D143083"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="00117C0000B4064FAB2666A7835C2366DC17679C777595828E547C348877455701A776130A87797711132500310030580000000000002A70000000001D440083"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="90"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="90"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.kluddacorius_sword"/>
+      <equipment slot="Item1" id="Item.plumbata"/>
+      <equipment slot="Body" id="Item.banded_leather_over_mail"/>
+      <equipment slot="Gloves" id="Item.highland_gloves"/>
+      <equipment slot="Leg" id="Item.empire_horseman_boots"/>
+      <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter> 
+  <NPCCharacter id="securifer_illyricum" default_group="Infantry" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Auxiliarus Securifer Illyricum" occupation="Soldier" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="000B5C02DA58000FA887C3AAA6C79C784A37888ED53357128B6E967A7499714D015776130557779C11132500310030580000000000002A7000000000429C4083"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="000B5C02C058000FA887C3AAA6C79C784A37888ED53357128B6E967A7499714D015776130557779C11132500310030580000000000002A7000000000429C4083"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="100"/>
+      <skill id="Riding" value="10"/>
+      <skill id="OneHanded" value="90"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="90"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+      <equipment slot="Item1" id="Item.northern_round_shield"/>
+      <equipment slot="Item2" id="Item.western_throwing_axe_1_t1"/>
+      <equipment slot="Body" id="Item.eastern_studded_leather"/>
+      <equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+      <equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+      <equipment slot="Head" id="Item.leatherlame_nasalhelm_over_imperial_leather"/>
+    </equipmentSet>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter> 
+  <NPCCharacter id="eques_pilatus" default_group="Cavalry" level="16" civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2" name="{=*}Eques Pilatus" occupation="Soldier" upgrade_requires="ItemCategory.horse" is_basic_troop="false" culture="Culture.empire">
+    <face>
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="00057C0580E4200E793965B7DBBA419988C617A577566AB3D5545AB99B4955EA019776130992BB7111132500310030580000000000002A700000000021246043"  />
+		<BodyPropertiesMax version="4" age="35" weight="0.5" build="0.5"  key="0011BC01402C000D74B99A625664CACD7789954C685C5CBD3C8B88C6545668AA01977613093B9B6B11132500310030580000000000002A70000000004B341083"  />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="Athletics" value="80"/>
+      <skill id="Riding" value="80"/>
+      <skill id="OneHanded" value="70"/>
+      <skill id="TwoHanded" value="40"/>
+      <skill id="Polearm" value="30"/>
+      <skill id="Bow" value="30"/>
+      <skill id="Crossbow" value="30"/>
+      <skill id="Throwing" value="80"/>
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.light_mace_t3"/>
+      <equipment slot="Item1" id="Item.northern_javelin_2_t3"/>
+      <equipment slot="Item2" id="Item.northern_javelin_2_t3"/>
+      <equipment slot="Item3" id="Item.desert_round_shield"/>
+      <equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+      <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+      <equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth"/>
+      <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+    </equipmentSet>
+    <equipment slot="Horse" id="Item.empire_horse"/>
+    <equipment slot="HorseHarness" id="Item.light_harness"/>
+    <upgrade_targets></upgrade_targets>
+  </NPCCharacter>
+ </NPCCharacters>
